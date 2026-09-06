@@ -19,3 +19,4 @@
 3. Created `.env` and `.env.example`
 4. Created and configured `pyproject.toml` + installed project dependencies
 5. Created `app` and `tests` folders
+6. Configured basic application settings inside `.env`

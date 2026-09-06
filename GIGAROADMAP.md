@@ -6,12 +6,12 @@
 - [x] Create `.gitignore`
 - [x] Create repository and virtual enviornment
 - [x] Create and configure `pyproject.toml` + install dependencies for this venv
-- [] Create settings/config loading from `env.`
+- [x] Create settings/config loading from `env.`
 - [] Set up SQLAlchemy engine, session factory and DeclarativeBase 
 - [] Create FastAPI app instance and lifespan
 - [] Set up Dockerfile
 - [] Set up Docker Compose for: FastAPI, PostgreSQL, Test PostgreSQL
-- [] Configure environment tech and PostgreSQL password inside `env.py` and then create visible `env.py` without password (for presentation)
+- [] Create database URL, configure PostgreSQL and PostgreSQL password inside `env.py` and then create visible `env.py` without password (for presentation)
 - [] Set up Alembic and connect it to SQLAlchemy
 - [] Add `healthcheck` endpoint and test
 - [] Create GitHub actions workflow
