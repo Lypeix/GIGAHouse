@@ -8,7 +8,7 @@
 - [x] Create and configure `pyproject.toml` + install dependencies for this venv
 - [x] Create settings/config loading from `env.`
 - [x] Set up SQLAlchemy engine, session factory and DeclarativeBase 
-- [] Create FastAPI app instance and lifespan
+- [x] Create FastAPI app instance and lifespan
 - [] Set up Dockerfile
 - [] Set up Docker Compose for: FastAPI, PostgreSQL, Test PostgreSQL
 - [] Create database URL, configure PostgreSQL and PostgreSQL password inside `env.py` and then create visible `env.py` without password (for presentation)

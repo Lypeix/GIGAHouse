@@ -29,3 +29,8 @@
 13. Created `base.py` and `session.py` modules for `database` subpackage
 14. Created `DeclarativeBase` parent class inside `base.py` module
 15. Configured SQLAlchemy engine inside `session.py` and Session Factory
+
+### Session 3 (15:44-x)
+1. Created `__init__.py` and `main.py` for `app`
+2. Created `app lifespan` in advance
+2. Created `app instance`
