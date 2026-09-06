@@ -30,9 +30,13 @@
 14. Created `DeclarativeBase` parent class inside `base.py` module
 15. Configured SQLAlchemy engine inside `session.py` and Session Factory
 
-### Session 3 (15:44-x)
+### Session 3 (15:44-16:27)
 1. Created `__init__.py` and `main.py` for `app`
 2. Created `app lifespan` in advance
 3. Created `app instance`
 4. Created and set up `Dockerfile`
 5. Created a GIGAHouse GIGADockerImage
+6. Created `.dockerignore`
+7. Created `api` service in `docker-compose.yml`
+8. Created `db` service in `docker-compose.yml`
+9. Created `test-db` service in `docker-compose.yml`

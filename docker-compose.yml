@@ -1,0 +1,47 @@
+services:
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    environment:
+      GIGAHOUSE_APP_NAME: ${GIGAHOUSE_APP_NAME}
+      GIGAHOUSE_ENVIRONMENT: ${GIGAHOUSE_ENVIRONMENT}
+      GIGAHOUSE_DEBUG: ${GIGAHOUSE_DEBUG}
+      GIGAHOUSE_DATABASE_URL: "postgresql+psycopg://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}"
+
+    ports:
+      - "8000:8000"
+
+  
+  db:
+    image: postgres:18-alpine
+
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - "postgres_data:/var/lib/postgresql"
+
+
+  test-db:
+    image: postgres:18-alpine
+    profiles: ["test"]
+
+    environment:
+
+    POSTGRES_DB: gigahouse_test
+    POSTGRES_USER: gigahouse_user
+    POSTGRES_PASSWORD: test-password
+
+    ports:
+    - "127.0.0.1:5433:5432"
+
+volumes:
+  postgres_data:
