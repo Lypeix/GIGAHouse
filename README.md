@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # GIGAHOUSE 
 
 !This project is being created with **ZERO** AI help outside feedback!
@@ -43,7 +42,3 @@ As of now, the planned tech stack is as follows:
 | [`GIGADEVLOG.md`](./GIGADEVLOG.md) | GIGALogs the development process
 | [`GIGAROADMAP.md`](./GIGAROADMAP.md) | Shows the GIGA Development Plans
 
-=======
-# GIGAHouse
-A side-project built with **ZERO** AI help. Currently in early stage development. GIGAHouse will cover SKU tracking, item information, facility transfers, etc. See README for details
->>>>>>> 6562b2f6201be27a26a1cdad9b5392b91520afc3
