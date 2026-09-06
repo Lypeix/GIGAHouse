@@ -1,0 +1,17 @@
+# GIGARoadmap
+
+- [x] Create and connect repository
+- [x] Create `GIGAREADME`, `GIGADEVLOG`, `GIGAROADMAP`
+- [x] Create a `GIGADescription` for `GIGAHouse` repository 
+- [] Create `.gitignore`
+- [] Create repository and virtual enviornment
+- [] Create `pyproject.toml` + install dependencies for this venv
+- [] Create settings/config loading from `env.`
+- [] Set up SQLAlchemy engine, session factory and DeclarativeBase 
+- [] Create FastAPI app instance and lifespan
+- [] Set up Dockerfile
+- [] Set up Docker Compose for: FastAPI, PostgreSQL, Test PostgreSQL
+- [] Configure environment tech and PostgreSQL password inside `env.py` and then create visible `env.py` without password (for presentation)
+- [] Set up Alembic and connect it to SQLAlchemy
+- [] Add `healthcheck` endpoint and test
+- [] Create GitHub actions workflow
