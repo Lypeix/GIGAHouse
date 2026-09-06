@@ -3,9 +3,9 @@
 - [x] Create and connect repository
 - [x] Create `GIGAREADME`, `GIGADEVLOG`, `GIGAROADMAP`
 - [x] Create a `GIGADescription` for `GIGAHouse` repository 
-- [] Create `.gitignore`
-- [] Create repository and virtual enviornment
-- [] Create `pyproject.toml` + install dependencies for this venv
+- [x] Create `.gitignore`
+- [x] Create repository and virtual enviornment
+- [x] Create and configure `pyproject.toml` + install dependencies for this venv
 - [] Create settings/config loading from `env.`
 - [] Set up SQLAlchemy engine, session factory and DeclarativeBase 
 - [] Create FastAPI app instance and lifespan

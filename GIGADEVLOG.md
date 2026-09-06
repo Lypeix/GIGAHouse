@@ -17,3 +17,5 @@
 1. Created `.gitignore` 
 2. Created and activated `virtual environment`
 3. Created `.env` and `.env.example`
+4. Created and configured `pyproject.toml` + installed project dependencies
+5. Created `app` and `tests` folders
