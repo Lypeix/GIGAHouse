@@ -13,7 +13,7 @@
 8. Connected `GIGARepository` to the `GIGAWorkspace`
 
 
-### Session 2 (12:27-x)
+### Session 2 (12:27-13:52)
 1. Created `.gitignore` 
 2. Created and activated `virtual environment`
 3. Created `.env` and `.env.example`
@@ -28,3 +28,4 @@
 12. Created `database` subpackage for `app` and marked it with `__init__.py`
 13. Created `base.py` and `session.py` modules for `database` subpackage
 14. Created `DeclarativeBase` parent class inside `base.py` module
+15. Configured SQLAlchemy engine inside `session.py` and Session Factory

@@ -7,7 +7,7 @@
 - [x] Create repository and virtual enviornment
 - [x] Create and configure `pyproject.toml` + install dependencies for this venv
 - [x] Create settings/config loading from `env.`
-- [] Set up SQLAlchemy engine, session factory and DeclarativeBase 
+- [x] Set up SQLAlchemy engine, session factory and DeclarativeBase 
 - [] Create FastAPI app instance and lifespan
 - [] Set up Dockerfile
 - [] Set up Docker Compose for: FastAPI, PostgreSQL, Test PostgreSQL
