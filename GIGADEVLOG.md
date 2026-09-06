@@ -20,3 +20,11 @@
 4. Created and configured `pyproject.toml` + installed project dependencies
 5. Created `app` and `tests` folders
 6. Configured basic application settings inside `.env`
+7. Pasted `.env` into `.env.example`
+8. Created `core` subpackage for `app` and marked it with `__init__.py`
+9. Created `config.py` module
+10. Created and configured `Settings(BaseSettings)` class inside `config.py` for validated environment app settings
+11. Created `get_settings()` with `@lru_cache` decorator for reusability
+12. Created `database` subpackage for `app` and marked it with `__init__.py`
+13. Created `base.py` and `session.py` modules for `database` subpackage
+14. Created `DeclarativeBase` parent class inside `base.py` module
