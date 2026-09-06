@@ -33,4 +33,6 @@
 ### Session 3 (15:44-x)
 1. Created `__init__.py` and `main.py` for `app`
 2. Created `app lifespan` in advance
-2. Created `app instance`
+3. Created `app instance`
+4. Created and set up `Dockerfile`
+5. Created a GIGAHouse GIGADockerImage
