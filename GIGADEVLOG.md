@@ -1,6 +1,6 @@
 # GIGADevlog
 
-## DAY 1 - 06.09.2026
+## Day 1 - 06.09.2026
 
 ### Session 1 (8:50-10:50)
 1. Picked project idea and researched it
@@ -40,3 +40,10 @@
 7. Created `api` service in `docker-compose.yml`
 8. Created `db` service in `docker-compose.yml`
 9. Created `test-db` service in `docker-compose.yml`
+
+
+## Day 2 - 07.09.2026
+
+### Session 1 (17:25-x)
+- Configured PostgreSQL inside `.env`
+- Generated secret password inside `.env` and put fake password inside `.env.example`
