@@ -44,6 +44,10 @@
 
 ## Day 2 - 07.09.2026
 
-### Session 1 (17:25-x)
+### Session 1 (17:25-17:51)
 - Configured PostgreSQL inside `.env`
 - Generated secret password inside `.env` and put fake password inside `.env.example`
+- Created database URL inside `.env.py` n used fake password inside the URL for `.env.example`
+- Initialized `Alembic` inside GIGAHOUSE virtual environment
+- Left sqlalchemy.url inside `alembic.ini` blank to avoid hard-coding and to have Alembic use the same database configuration as the application
+- Connected `Alembic` to `SQLAlchemy` inside `alembic/env.py`

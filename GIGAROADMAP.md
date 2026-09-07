@@ -11,7 +11,7 @@
 - [x] Create FastAPI app instance and lifespan
 - [x] Set up Dockerfile and build a GIGA Docker image
 - [x] Set up Docker Compose for: FastAPI, PostgreSQL, Test PostgreSQL
-- [x] Create database URL, configure PostgreSQL and PostgreSQL password inside `env.py` and then create visible `env.py` without password (for presentation)
-- [] Set up Alembic and connect it to SQLAlchemy
+- [x] Create Database URL, configure PostgreSQL and PostgreSQL password inside `env.py` and then create visible `env.py` without password (for presentation)
+- [x] Set up Alembic and connect it to SQLAlchemy
 - [] Add `healthcheck` endpoint and test
 - [] Create GitHub actions workflow
