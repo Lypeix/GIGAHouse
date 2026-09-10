@@ -13,5 +13,5 @@
 - [x] Set up Docker Compose for: FastAPI, PostgreSQL, Test PostgreSQL
 - [x] Create Database URL, configure PostgreSQL and PostgreSQL password inside `env.py` and then create visible `env.py` without password (for presentation)
 - [x] Set up Alembic and connect it to SQLAlchemy
-- [] Add `healthcheck` endpoint and test
-- [] Create GitHub actions workflow
+- [ ] Add `healthcheck` to the services, healthcheck endpoint + router and pytests
+- [ ] Create GitHub actions workflow

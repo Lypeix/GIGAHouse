@@ -51,3 +51,10 @@
 - Initialized `Alembic` inside GIGAHOUSE virtual environment
 - Left sqlalchemy.url inside `alembic.ini` blank to avoid hard-coding and to have Alembic use the same database configuration as the application
 - Connected `Alembic` to `SQLAlchemy` inside `alembic/env.py`
+
+## Day 3 - 10.09.2026
+
+### Session 1 (19:57-20:13)
+- Added `healthcheck `for the api service inside `docker-compose.yml`
+- Added `healthcheck `for the db service inside `docker-compose.yml`
+- Added `healthcheck `for the test-db service inside `docker-compose.yml`
