@@ -54,7 +54,7 @@
 
 ## Day 3 - 10.09.2026
 
-### Session 1 (19:57-20:34)
+### Session 1 (19:57-20:39)
 - Added `healthcheck `for the api service inside `docker-compose.yml`
 - Added `healthcheck `for the db service inside `docker-compose.yml`
 - Added `healthcheck `for the test-db service inside `docker-compose.yml`
