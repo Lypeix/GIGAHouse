@@ -54,9 +54,14 @@
 
 ## Day 3 - 10.09.2026
 
-### Session 1 (19:57-20:13)
+### Session 1 (19:57-20:34)
 - Added `healthcheck `for the api service inside `docker-compose.yml`
 - Added `healthcheck `for the db service inside `docker-compose.yml`
 - Added `healthcheck `for the test-db service inside `docker-compose.yml`
 - Created `health.py` router
+- Created `health` endpoint
+- Created `database_readiness` endpoint
 - Connected the `health` router to `main.py`
+- Added pytests for:
+    - health endpoint
+    - database_readiness endpoint
