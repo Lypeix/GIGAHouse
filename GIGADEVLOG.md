@@ -58,3 +58,5 @@
 - Added `healthcheck `for the api service inside `docker-compose.yml`
 - Added `healthcheck `for the db service inside `docker-compose.yml`
 - Added `healthcheck `for the test-db service inside `docker-compose.yml`
+- Created `health.py` router
+- Connected the `health` router to `main.py`
