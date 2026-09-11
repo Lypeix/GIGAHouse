@@ -1,7 +1,5 @@
 # GIGAHOUSE 
 
-!This project is being created with **ZERO** AI help outside feedback!
-
 ## Navigation
 
 - [What is GIGAHouse?](#what-is-gigahouse)
