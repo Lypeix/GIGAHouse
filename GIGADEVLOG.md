@@ -70,13 +70,12 @@
 
 ### Session 1 (07:18-08:22)
 - Created `.github/workflows`
-    - `.gitkeep`
     - `tests.yml`
 - Configured GitHub Actions CI
 - Verified that the CI test workflow runs successfully
-- After 10 minutes of pondering why the alembic check CI test failed, I have finally found a typo inside `alembic/env.py`
+- After ~10 minutes of debugging, found a typo in `alembic/env.py` that caused the Alembic check to fail
 - Added missing `conftest.py` inside `tests`
 - Added missing parantheses for json method inside `test_health.py`
-- Made the POSTGRES_PASSWORD inside `.env.example` match the GIGAHOUSE_DATABASE_URL
+- Made the `POSTGRES_PASSWORD` inside `.env.example` match the `GIGAHOUSE_DATABASE_URL`
 - Fixed database connection URL
 - Started the test database
