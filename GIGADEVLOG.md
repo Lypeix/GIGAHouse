@@ -65,3 +65,12 @@
 - Added pytests for:
     - health endpoint
     - readiness endpoint
+
+## Day 4 - 12.09.2026
+
+### Session 1 (07:18-07:41)
+- Created `.github/workflows`
+    - `.gitkeep`
+    - `tests.yml`
+- Configured GitHub Actions CI
+- Verified that the CI test workflow runs successfully
