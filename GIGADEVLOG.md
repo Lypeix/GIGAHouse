@@ -68,9 +68,10 @@
 
 ## Day 4 - 12.09.2026
 
-### Session 1 (07:18-07:41)
+### Session 1 (07:18-07:54)
 - Created `.github/workflows`
     - `.gitkeep`
     - `tests.yml`
 - Configured GitHub Actions CI
 - Verified that the CI test workflow runs successfully
+- After 10 minutes of pondering why the alembic check CI test failed, I have finally found a typo inside `alembic/env.py`
