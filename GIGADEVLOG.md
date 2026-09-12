@@ -68,7 +68,7 @@
 
 ## Day 4 - 12.09.2026
 
-### Session 1 (07:18-07:54)
+### Session 1 (07:18-08:22)
 - Created `.github/workflows`
     - `.gitkeep`
     - `tests.yml`
